@@ -50,32 +50,33 @@ function Content({ data }) {
 
       {/* Skills Section */}
       <section className="mt-16">
-        <h3 className="text-2xl font-bold mb-6 text-gray-800">Skills</h3>
-        <ul className="grid grid-cols-6 sm:grid-cols-3 lg:grid-cols-8 gap-3">
-          {data.skills.map((skill, index) => (
-            <li
-              key={index}
-              className="bg-gray-100 p-2 shadow-md rounded-sm text-center flex items-center justify-center h-20 group"
-            >
-              <div className="flex flex-col items-center justify-center">
-                {/* Render Icon from Icons8 */}
-                {iconMapping(skill) ? (
-                  <>
-                  <img
-                    src={iconMapping(skill)}
-                    alt={skill}
-                    className="w-12 h-12 group-hover:animate-spin"
-                  />
-                  <h4 className="text-xs font-semibold text-gray-700">{skill}</h4>
-                  </>
-                ) : (
-                  <h4 className="text-xs font-semibold text-gray-700">{skill}</h4>
-                )}
-              </div>
-            </li>
-          ))}
-        </ul>
-      </section>
+  <h3 className="text-2xl font-bold mb-6 text-gray-800 text-center sm:text-left">Skills</h3>
+  <ul className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+    {data.skills.map((skill, index) => (
+      <li
+        key={index}
+        className="bg-gray-100 p-4 shadow-md rounded-md text-center flex flex-col items-center justify-center h-24 group"
+      >
+        <div className="flex flex-col items-center justify-center">
+          {/* Render Icon from Icons8 */}
+          {iconMapping(skill) ? (
+            <>
+              <img
+                src={iconMapping(skill)}
+                alt={skill}
+                className="w-10 h-10 group-hover:animate-spin"
+              />
+              <h4 className="text-sm font-semibold text-gray-700 mt-2">{skill}</h4>
+            </>
+          ) : (
+            <h4 className="text-sm font-semibold text-gray-700">{skill}</h4>
+          )}
+        </div>
+      </li>
+    ))}
+  </ul>
+</section>
+
     </main>
   );
 }

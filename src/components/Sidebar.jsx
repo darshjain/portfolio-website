@@ -5,7 +5,7 @@ function Sidebar({ data }) {
     <aside className="flex flex-col items-center">
       <img
         className="rounded-full w-28 h-28 mb-4 border-4 border-white shadow-lg"
-        src="your-photo-url.jpg"
+        src="https://media.licdn.com/dms/image/v2/D4D03AQEpxfduhcg6zg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1683449928396?e=1732752000&v=beta&t=ZVbQ1s3wLcorLJKmRK-cpZWtH80GKLAog1dBNLe7TK4"
         alt="Darsh Jain"
       />
       <h2 className="text-xl font-bold mb-2">{data.header.name}</h2>
