@@ -1,0 +1,119 @@
+{
+  "header": {
+    "name": "Darsh Jain",
+    "title": "MSCS Student at UVA"
+  },
+  "about": {
+    "description": "I'm a graduate student studying Computer Science at UVA with a passion for blockchain, full-stack development, and forensics. I have experience in software development, blockchain research, and cloud technologies."
+  },
+  "links": [
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/darshnjain" },
+    { "label": "GitHub", "url": "https://github.com/darshjain" }
+  ],
+  "skills": [
+    "Python",
+    "Java",
+    "JavaScript",
+    "C",
+    "C++",
+    "Solidity",
+    "ReactJS",
+    "NextJS",
+    "Node.js",
+    "ExpressJS",
+    "MongoDB",
+    "SQL",
+    "NoSQL",
+    "Blockchain",
+    "Forensics",
+    "Operating Systems",
+    "Cloud Solution",
+    "AWS",
+    "CI/CD"
+  ],
+  "certifications": [
+    "AWS Academy Cloud Foundations",
+    "CCNAv7: Introduction to Networks",
+    "CCNAv7: Switching, Routing and Wireless Essentials",
+    "CCNAv7: Enterprise Networking, Security, and Automation",
+    "Python for Everybody"
+  ],
+  "projects": [
+    {
+      "name": "Medilog",
+      "description": "Designed a blockchain-based, end-to-end pharmaceutical supply chain solution to trace prescription drugs from the manufacturer to the consumer.",
+      "link": "https://github.com/your-repo/medilog"
+    },
+    {
+      "name": "Crowdfunding for Engineering Startups",
+      "description": "Developed a decentralized blockchain web application to assist engineering startups with crowdfunding using smart contracts.",
+      "link": "https://github.com/your-repo/crowdfunding"
+    },
+    {
+      "name": "Face Mask Detection & Attendance System",
+      "description": "Created an algorithm using OpenCV to detect face masks and integrate it into an attendance system using live feed.",
+      "link": "https://github.com/your-repo/facemask-detection"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Developer",
+      "company": "Lab Systems Pvt. Ltd.",
+      "description": "Designed and implemented scalable cryptocurrency forensics and disk forensics software, improving performance using Python, C++, and Flask API.",
+      "duration": "Aug 2023 – July 2024"
+    },
+    {
+      "role": "Blockchain Research Intern",
+      "company": "Lab Systems Pvt. Ltd.",
+      "description": "Gained expertise in cryptocurrency forensics using OSINT techniques, and worked on real-life cases involving over $20 million in cryptocurrencies.",
+      "duration": "Aug 2022 – July 2023"
+    },
+    {
+      "role": "Cloud Intern",
+      "company": "Amazon Web Services (SLRTCE)",
+      "description": "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",
+      "duration": "Jun 2022 – Jul 2022"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "University of Virginia",
+      "duration": "Aug 2024 – Dec 2025"
+    },
+    {
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "institution": "University of Mumbai",
+      "duration": "Aug 2019 – May 2023",
+      "gpa": "3.70/4.00"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Survey paper on Face Mask Detection And Attendance System",
+      "journal": "International Journal of Scientific and Research Publications (IJSRP)",
+      "impact_factor": 7.662,
+      "link": "https://www.ijsrp.org/research-paper-0321/ijsrp-p11140.pdf"
+    },
+    {
+      "title": "Face Mask Detection and Attendance System",
+      "journal": "International Research Journal of Engineering and Technology (IRJET)",
+      "impact_factor": 7.529,
+      "link": "https://www.irjet.net/archives/V8/i6/IRJET-V8I6601.pdf"
+    },
+    {
+      "title": "Crowdfunding For Engineering Startups using Blockchain And Smart Contracts",
+      "journal": "International Journal Of Research And Analytical Reviews (IJRAR)",
+      "impact_factor": 7.17,
+      "link": "https://www.ijrar.org/viewfull.php?&p_id=IJRAR22B1545"
+    }
+  ],
+  "patents": [
+    {
+      "title": "Ein Blockchain-basiertes Medizinlogistiksystem",
+      "file_number": "20 2023 102 823.3",
+      "date": "19 September 2023",
+      "link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0"
+    }
+  ]
+}
