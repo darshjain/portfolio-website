@@ -2,17 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;500;600&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Poppins', 'Arial', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif; /* Use a serif font for headings */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font size for main headings */
+  font-weight: 700; /* Bold weight for emphasis */
+}
+
+h2 {
+  font-size: 2rem; /* Sub-headings */
+  font-weight: 600; /* Medium weight */
+}
+
+h3 {
+  font-size: 1.75rem; /* Section titles */
+  font-weight: 600; /* Medium weight */
+}
+
+p, li {
+  font-size: 1rem; /* Standard font size for body text */
+  font-weight: 400; /* Regular weight */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  color: #3b82f6; /* Tailwind's blue-500 */
+  transition: color 0.3s ease; /* Smooth color transition for links */
+}
+
+a:hover {
+  color: #2563eb; /* Tailwind's blue-600 */
+}
+

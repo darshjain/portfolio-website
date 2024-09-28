@@ -78,12 +78,12 @@
   "education": [
     {
       "degree": "Master of Science in Computer Science",
-      "institution": "University of Virginia",
+      "school": "University of Virginia",
       "duration": "Aug 2024 – Dec 2025"
     },
     {
       "degree": "Bachelor of Engineering in Computer Engineering",
-      "institution": "University of Mumbai",
+      "school": "University of Mumbai",
       "duration": "Aug 2019 – May 2023",
       "gpa": "3.70/4.00"
     }
