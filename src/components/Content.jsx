@@ -6,19 +6,26 @@ function Content({ data }) {
   return (
     <main className="p-6 lg:p-12">
       {/* Experience Section */}
-      <section className="mt-8">
-        <h3 className="text-2xl font-bold mb-6 text-gray-800">Experience</h3>
-        <ul className="space-y-8">
-          {data.experience.map((exp, index) => (
-            <li key={index} className="bg-white p-6 shadow-md rounded-lg border-l-4 border-blue-500">
-              <h4 className="text-xl font-semibold text-gray-900">{exp.role}</h4>
-              <h5 className="text-md font-medium text-gray-700">{exp.company}</h5>
-              <p className="text-gray-600 mt-2">{exp.description}</p>
-              <span className="block mt-4 text-sm text-gray-500">{exp.duration}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
+
+     <section className="mt-8">
+  <h3 className="text-3xl font-extrabold text-gray-900 mb-6">Experience</h3>
+  <ul className="space-y-8">
+    {data.experience.map((exp, index) => (
+      <li 
+        key={index} 
+        className="bg-white p-8 shadow-lg rounded-lg border-l-8 border-blue-500 hover:shadow-xl transition-shadow duration-300"
+      >
+        <div className="flex items-center justify-between">
+          <h4 className="text-2xl font-bold text-gray-800">{exp.role}</h4>
+          <span className="text-sm text-gray-500">{exp.duration}</span>
+        </div>
+        <h5 className="text-lg font-semibold text-gray-600 mt-2">{exp.company}</h5>
+        <p className="text-gray-600 mt-4 leading-relaxed">{exp.description}</p>
+      </li>
+    ))}
+  </ul>
+</section>
+
 
       {/* Projects Section */}
       <section className="mt-16">
