@@ -8,7 +8,13 @@
   },
   "links": [
     { "label": "LinkedIn", "url": "https://linkedin.com/in/darshnjain" },
-    { "label": "GitHub", "url": "https://github.com/darshjain" }
+    { "label": "GitHub", "url": "https://github.com/darshjain" },
+    { "label": "Portfolio", "url": "https://darshjain.github.io" },
+    { "label": "Resume", "url": "https://resume.io/r/your-resume" },
+    { "label": "Email", "url": "mailto:bhj4jy@virginia.edu" },
+    { "label": "Phone", "url": "tel:+1234567890" },
+    { "label": "Location", "url": "Charlottesville, VA" },
+    { "label": "Languages", "url": "English, German, Hindi" }
   ],
   "skills": [
     "Python",

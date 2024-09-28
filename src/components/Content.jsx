@@ -6,7 +6,7 @@ function Content({ data }) {
     <main className="p-6 lg:p-12">
       
       {/* Experience Section */}
-      <section className="mt-12">
+      <section className="">
         <h3 className="text-3xl text-gray-900 mb-8">Experience</h3>
         <ul className="space-y-10">
           {data.experience.map((exp, index) => (
