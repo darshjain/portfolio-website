@@ -1,22 +1,43 @@
 {
 	"header": {
 		"name": "Darsh Jain",
+		"tagline": "Not Just Another Engineer",
 		"title": "MSCS Student at UVA",
-		"profile_image": "https://avatars.githubusercontent.com/u/76977891?v=4"
+		"profileImage": "https://avatars.githubusercontent.com/u/76977891?v=4"
+		
 	},
 	"about": {
-		"description": "I'm a graduate student studying Computer Science at UVA with a passion for blockchain, full-stack development, and forensics. I have experience in software development, blockchain research, and cloud technologies."
+		"description": "I'm a graduate student studying Computer Science at UVA with a passion for blockchain, full-stack development, and forensics. I have experience in software development, blockchain research, and cloud technologies.",
+		"location": "Charlottesville, VA",
+		"languages": ["English", "Hindi"]
 	},
 	"links": [
-		{ "label": "LinkedIn", "url": "https://linkedin.com/in/darshnjain" },
-		{ "label": "GitHub", "url": "https://github.com/darshjain" },
-		{ "label": "Portfolio", "url": "https://darshjain.github.io" },
-		{ "label": "Resume", "url": "https://resume.io/r/your-resume" },
-		{ "label": "Email", "url": "mailto:bhj4jy@virginia.edu" },
-		{ "label": "Phone", "url": "tel:+1234567890" },
-		{ "label": "Location", "url": "Charlottesville, VA" },
-		{ "label": "Languages", "url": "English, German, Hindi" }
+		{
+			"label": "LinkedIn",
+			"url": "https://linkedin.com/in/darshnjain"
+		},
+		{
+			"label": "GitHub",
+			"url": "https://github.com/darshjain"
+		},
+		{
+			"label": "Portfolio",
+			"url": "https://darshjain.github.io"
+		},
+		{
+			"label": "Resume",
+			"url": "https://resume.io/r/your-resume"
+		},
+		{
+			"label": "Email",
+			"url": "mailto:bhj4jy@virginia.edu"
+		},
+		{
+			"label": "Phone",
+			"url": "tel:+1234567890"
+		}
 	],
+	"news":[],
 	"skills": [
 		"Python",
 		"Java",
