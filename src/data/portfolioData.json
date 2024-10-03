@@ -3,13 +3,15 @@
 		"name": "Darsh Jain",
 		"tagline": "Not Just Another Engineer",
 		"title": "MSCS Student at UVA",
-		"profileImage": "https://avatars.githubusercontent.com/u/76977891?v=4"
-		
+		"profileImage": "https://avatars.githubusercontent.com/u/65119169?v=4"
 	},
 	"about": {
 		"description": "I'm a graduate student studying Computer Science at UVA with a passion for blockchain, full-stack development, and forensics. I have experience in software development, blockchain research, and cloud technologies.",
 		"location": "Charlottesville, VA",
-		"languages": ["English", "Hindi"]
+		"languages": [
+			"English",
+			"Hindi"
+		]
 	},
 	"links": [
 		{
@@ -37,7 +39,7 @@
 			"url": "tel:+1234567890"
 		}
 	],
-	"news":[],
+	"news": [],
 	"skills": [
 		"Python",
 		"Java",
@@ -89,21 +91,33 @@
 	"experience": [
 		{
 			"role": "Software Developer",
-			"company": "Lab Systems Pvt. Ltd.",
-			"description": "Designed and implemented scalable cryptocurrency forensics and disk forensics software, improving performance using Python, C++, and Flask API.",
-			"duration": "Aug 2023 - Jul 2024"
+			"company": "Lab Systems (I) Pvt. Ltd.",
+			"description": [
+				"Designed and implemented scalable Cryptocurrency Forensics and Disk Forensics software.",
+				"Designed APIs using C++ and Python backend and Operating System services to increase performance of software. ",
+				"Managed the team as Lead, optimizing workflows using Git and other tools and communicating design architectures."
+			],
+			"duration": "Aug 2023 - Jul 2024",
+			"tech_stack": "NextJS, C++, Python, Git, Operating Systems, Blockchain, Cryptocurrency Forensics, Disk Forensics"
 		},
 		{
 			"role": "Blockchain Research Intern",
 			"company": "Lab Systems Pvt. Ltd.",
-			"description": "Gained expertise in cryptocurrency forensics using OSINT techniques, and worked on real-life cases involving over $20 million in cryptocurrencies.",
-			"duration": "Aug 2022 - Jul 2023"
+			"description": [
+				"Gained expertise in cryptocurrency forensics using OSINT techniques.",
+				"Worked on real-life cases involving over $20 million in cryptocurrencies."
+			],
+			"duration": "Aug 2022 - Jul 2023",
+			"tech_stack": "*OSINT techniques, Cryptocurrency Forensics*"
 		},
 		{
 			"role": "Cloud Intern",
 			"company": "Amazon Web Services (SLRTCE)",
-			"description": "Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services.",
-			"duration": "Jun 2022 - Jul 2022"
+			"description": [
+				"Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services."
+			],
+			"duration": "Jun 2022 - Jul 2022",
+			"tech_stack": "AWS Cloud Services*"
 		}
 	],
 	"education": [

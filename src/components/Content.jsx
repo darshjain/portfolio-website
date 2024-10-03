@@ -15,6 +15,17 @@ function Content({ data }) {
                 <span className="text-sm text-gray-500">{exp.duration}</span>
               </div>
               <h5 className="text-lg font-medium text-gray-600 mt-1">{exp.company}</h5>
+              {/* Tech Stack */}
+              <div className="flex flex-wrap mt-2">
+                {exp.tech_stack.split(',').map((tech, index) => (
+                  <span
+                    key={index}
+                    className="bg-gray-100 text-gray-600 text-sm px-2 py-1 rounded-full mr-2 mb-2"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
               <p className="text-gray-600 mt-2">{exp.description}</p>
             </li>
           ))}
