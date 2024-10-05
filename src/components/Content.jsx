@@ -4,9 +4,32 @@ import iconMapping from "./IconMapping";
 function Content({ data }) {
   return (
     <main className="p-6 lg:p-12">
-      {/* Experience Section */}
+      {/* Education Section */}
       <section>
-        <h3 className="text-3xl text-gray-900 mb-6">Experience</h3>
+        <h3 className="text-gray-900 mb-6">Education</h3>
+        <ul className="space-y-6">
+          {data.education.map((edu, index) => (
+            <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
+              <div className="flex justify-between items-center">
+                <div>
+                  <h4 className="text-2xl text-gray-800">{edu.degree}</h4>
+                  <h5 className="text-lg font-medium text-gray-600 mt-1">{edu.school}</h5>
+                </div>
+                <div className="flex flex-col text-right">
+                  <span className="text-sm text-gray-500">{edu.duration}</span>
+                  <span className="text-sm text-gray-500">GPA: {edu.gpa}</span>
+                </div>
+              </div>
+              <p className="text-gray-600 mt-2">{edu.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+
+      {/* Experience Section */}
+      <section className="mt-12">
+        <h3 className="text-gray-900 mb-6">Experience</h3>
         <ul className="space-y-6">
           {data.experience.map((exp, index) => (
             <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
@@ -34,46 +57,78 @@ function Content({ data }) {
 
       {/* Projects Section */}
       <section className="mt-12">
-        <h3 className="text-3xl text-gray-900 mb-6">Projects</h3>
-        <ul className="space-y-6">
-          {data.projects.map((project, index) => (
-            <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
-              <h4 className="text-2xl text-gray-800">{project.name}</h4>
-              <p className="text-gray-600 mt-2">{project.description}</p>
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 text-blue-500 hover:underline"
-              >
-                View Project
-              </a>
-            </li>
-          ))}
-        </ul>
-      </section>
+  <h3 className="text-gray-900 mb-6">Projects</h3>
+  <ul className="space-y-6">
+    {data.projects.map((project, index) => (
+      <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
+        <div className="flex justify-between items-center">
+          <h4 className="text-2xl text-gray-800">{project.name}</h4>
+          <span className="text-sm text-gray-500">{project.duration}</span>
+        </div>
+        <p className="text-gray-600 mt-2">{project.description}</p>
 
-      {/* Education Section */}
-      <section className="mt-12">
-        <h3 className="text-3xl text-gray-900 mb-6">Education</h3>
-        <ul className="space-y-6">
-          {data.education.map((edu, index) => (
-            <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
-              <div className="flex justify-between">
-                <h4 className="text-2xl text-gray-800">{edu.degree}</h4>
-                <span className="text-sm text-gray-500">{edu.duration}</span>
-              </div>
-              <h5 className="text-lg font-medium text-gray-600 mt-1">{edu.school}</h5>
-              <p className="text-gray-600 mt-2">{edu.description}</p>
-              <p className="text-gray-600 mt-2 font-medium">GPA: {edu.gpa}</p>
-            </li>
-          ))}
-        </ul>
-      </section>
+        {/* Icons for links (Patent, Paper, GitHub) */}
+        <div className="mt-2 flex space-x-4">
+          {project.patent && (
+            <a
+              href={project.patent}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Patent"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              <img
+                src={iconMapping("Patent")}
+                alt="Patent"
+                className="w-6 h-6"
+              />
+            </a>
+          )}
+
+          {project.paper && (
+            <a
+              href={project.paper}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Paper"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              <img
+                src={iconMapping("Paper")}
+                alt="Paper"
+                className="w-6 h-6"
+              />
+            </a>
+          )}
+
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              className="text-gray-600 hover:text-gray-800"
+            >
+              <img
+                src={iconMapping("Github")}
+                alt="GitHub"
+                className="w-6 h-6"
+              />
+            </a>
+          )}
+        </div>
+      </li>
+    ))}
+  </ul>
+</section>
+
+
+
+
 
       {/* Skills Section */}
       <section className="mt-12">
-        <h3 className="text-3xl text-gray-900 mb-6 text-center sm:text-left">
+        <h3 className="text-gray-900 mb-6 text-center sm:text-left">
           Skills
         </h3>
         <ul className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-8">

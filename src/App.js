@@ -23,7 +23,7 @@ function App() {
           <Content data={data} />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
