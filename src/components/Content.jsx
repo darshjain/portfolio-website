@@ -3,7 +3,7 @@ import iconMapping from "./IconMapping";
 
 function Content({ data }) {
   return (
-    <main className="p-6 lg:p-12">
+    <main className="p-6 lg:p-6">
       {/* Education Section */}
       <section>
         <h3 className="text-gray-900 mb-6">Education</h3>
@@ -20,12 +20,10 @@ function Content({ data }) {
                   <span className="text-sm text-gray-500">GPA: {edu.gpa}</span>
                 </div>
               </div>
-              <p className="text-gray-600 mt-2">{edu.description}</p>
             </li>
           ))}
         </ul>
       </section>
-
 
       {/* Experience Section */}
       <section className="mt-12">
@@ -49,7 +47,11 @@ function Content({ data }) {
                   </span>
                 ))}
               </div>
-              <p className="text-gray-600 mt-2">{exp.description}</p>
+              <ul className="list-disc ml-5 text-gray-600 mt-2">
+                {exp.description.map((desc, idx) => (
+                  <li key={idx}>{desc}</li>
+                ))}
+              </ul>
             </li>
           ))}
         </ul>
@@ -57,74 +59,70 @@ function Content({ data }) {
 
       {/* Projects Section */}
       <section className="mt-12">
-  <h3 className="text-gray-900 mb-6">Projects</h3>
-  <ul className="space-y-6">
-    {data.projects.map((project, index) => (
-      <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
-        <div className="flex justify-between items-center">
-          <h4 className="text-2xl text-gray-800">{project.name}</h4>
-          <span className="text-sm text-gray-500">{project.duration}</span>
-        </div>
-        <p className="text-gray-600 mt-2">{project.description}</p>
+        <h3 className="text-gray-900 mb-6">Projects</h3>
+        <ul className="space-y-6">
+          {data.projects.map((project, index) => (
+            <li key={index} className="flex flex-col mb-6 p-4 border-b border-gray-200 last:border-none">
+              <div className="flex justify-between items-center">
+                <h4 className="text-2xl text-gray-800">{project.name}</h4>
+                <span className="text-sm text-gray-500">{project.duration}</span>
+              </div>
+              <p className="text-gray-600 mt-2">{project.description}</p>
 
-        {/* Icons for links (Patent, Paper, GitHub) */}
-        <div className="mt-2 flex space-x-4">
-          {project.patent && (
-            <a
-              href={project.patent}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Patent"
-              className="text-gray-600 hover:text-gray-800"
-            >
-              <img
-                src={iconMapping("Patent")}
-                alt="Patent"
-                className="w-6 h-6"
-              />
-            </a>
-          )}
+              {/* Icons for links (Patent, Paper, GitHub) */}
+              <div className="mt-2 flex space-x-4">
+                {project.patent && (
+                  <a
+                    href={project.patent}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Patent"
+                    className="text-gray-600 hover:text-gray-800"
+                  >
+                    <img
+                      src={iconMapping("Patent")}
+                      alt="Patent"
+                      className="w-6 h-6"
+                    />
+                  </a>
+                )}
 
-          {project.paper && (
-            <a
-              href={project.paper}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Paper"
-              className="text-gray-600 hover:text-gray-800"
-            >
-              <img
-                src={iconMapping("Paper")}
-                alt="Paper"
-                className="w-6 h-6"
-              />
-            </a>
-          )}
+                {project.paper && (
+                  <a
+                    href={project.paper}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Paper"
+                    className="text-gray-600 hover:text-gray-800"
+                  >
+                    <img
+                      src={iconMapping("Paper")}
+                      alt="Paper"
+                      className="w-6 h-6"
+                    />
+                  </a>
+                )}
 
-          {project.github && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="text-gray-600 hover:text-gray-800"
-            >
-              <img
-                src={iconMapping("Github")}
-                alt="GitHub"
-                className="w-6 h-6"
-              />
-            </a>
-          )}
-        </div>
-      </li>
-    ))}
-  </ul>
-</section>
-
-
-
-
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                    className="text-gray-600 hover:text-gray-800"
+                  >
+                    <img
+                      src={iconMapping("Github")}
+                      alt="GitHub"
+                      className="w-6 h-6"
+                    />
+                  </a>
+                )}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
 
       {/* Skills Section */}
       <section className="mt-12">
@@ -145,12 +143,12 @@ function Content({ data }) {
                       alt={skill}
                       className="w-15 h-12 mb-2 group-hover:animate-spin"
                     />
-                    <h4 className="text-sm  text-gray-700">
+                    <h4 className="text-sm text-gray-700">
                       {skill}
                     </h4>
                   </>
                 ) : (
-                  <h4 className="text-sm  text-gray-700">
+                  <h4 className="text-sm text-gray-700">
                     {skill}
                   </h4>
                 )}

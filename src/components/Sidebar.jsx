@@ -59,10 +59,11 @@ function Sidebar({ data }) {
           return (
             <li key={index} className="flex justify-center">
               <a
-                href={link.url}
+                href={link.label.toLowerCase() === 'resume' ? '/ResumeDarshJain.pdf' : link.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-blue-500 transition-colors duration-200 ease-in-out"
+                download={link.label.toLowerCase() === 'resume' ? 'ResumeDarshJain.pdf' : undefined}
                 aria-label={link.label}
               >
                 <IconComponent size={28} />

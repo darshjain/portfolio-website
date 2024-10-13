@@ -28,7 +28,7 @@
 		},
 		{
 			"label": "Resume",
-			"url": "https://resume.io/r/your-resume"
+			"url": "Darsh_Jain_Resume.pdf"
 		},
 		{
 			"label": "Email",
@@ -59,7 +59,18 @@
 		"Operating Systems",
 		"Cloud Solution",
 		"AWS",
-		"CI/CD"
+		"CI/CD",
+		"GraphQL",
+		"HTML",
+		"CSS",
+		"Bash Script",
+		"SASS",
+		"Pandas",
+		"Web3",
+		"PyMongo",
+		"Truffle",
+		"Mocha",
+		"TailwindCSS"
 	],
 	"certifications": [
 		"AWS Academy Cloud Foundations",
@@ -74,22 +85,22 @@
 			"duration": "Aug 2022 - May 2023",
 			"description": "Designed a blockchain-based, end-to-end pharmaceutical supply chain solution to trace prescription drugs from the manufacturer to the consumer.",
 			"paper": "https://github.com/your-repo/medilog",
-			"github":"/SAMPLE"
+			"github": "/SAMPLE"
 		},
 		{
 			"name": "Crowdfunding for Engineering Startups",
 			"duration": "Aug 2021 - May 2022",
 			"description": "Developed a decentralized blockchain web application to assist engineering startups with crowdfunding using smart contracts.",
 			"paper": "https://github.com/your-repo/medilog",
-			"github":"/SAMPLE"
+			"github": "/SAMPLE"
 		},
 		{
 			"name": "Face Mask Detection & Attendance System",
 			"duration": "Aug 2020 - May 2021",
 			"description": "Created an algorithm using OpenCV to detect face masks and integrate it into an attendance system using live feed.",
 			"paper": "https://github.com/your-repo/medilog",
-			"github":"/SAMPLE",
-			"patent":"https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0"
+			"github": "/SAMPLE",
+			"patent": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0"
 		}
 	],
 	"experience": [
@@ -98,21 +109,23 @@
 			"company": "Lab Systems (I) Pvt. Ltd.",
 			"description": [
 				"Designed and implemented scalable Cryptocurrency Forensics and Disk Forensics software.",
-				"Designed APIs using C++ and Python backend and Operating System services to increase performance of software. ",
-				"Managed the team as Lead, optimizing workflows using Git and other tools and communicating design architectures."
+				"Designed APIs using C++ and Python backend and Operating System services to increase performance of software.",
+				"Managed the team as Lead, optimizing workflows using Git and other tools and communicating design architectures.",
+				"Deployed solutions in multiple architectures on AWS Cloud and on Linux Servers using Network Design & Containers."
 			],
 			"duration": "Aug 2023 - Jul 2024",
 			"tech_stack": "NextJS, C++, Python, Git, Operating Systems, Blockchain, Cryptocurrency Forensics, Disk Forensics"
 		},
 		{
-			"role": "Blockchain Research Intern",
+			"role": "Software Developer & Blockchain Intern",
 			"company": "Lab Systems Pvt. Ltd.",
 			"description": [
 				"Gained expertise in cryptocurrency forensics using OSINT techniques.",
-				"Worked on real-life cases involving over $20 million in cryptocurrencies."
+				"Worked on real-life cases involving over $20 million in cryptocurrencies.",
+				"Set up Cryptocurrency Full Nodes and developed software design on-premises while maintaining client relations globally."
 			],
 			"duration": "Aug 2022 - Jul 2023",
-			"tech_stack": "*OSINT techniques, Cryptocurrency Forensics*"
+			"tech_stack": "Blockchain Architecture, Linux, Operating Systems, Forensics, Solidity, Smart Contracts, Ganache, IPFS"
 		},
 		{
 			"role": "Cloud Intern",
@@ -121,7 +134,7 @@
 				"Completed a training internship focusing on deploying end-to-end solutions on AWS Cloud services."
 			],
 			"duration": "Jun 2022 - Jul 2022",
-			"tech_stack": "AWS Cloud Services*"
+			"tech_stack": "AWS Cloudfront, Amplify, IAM, WAF, EC2, CI/CD Pipeline, Lambda, S3, RDS, DynamoDB"
 		}
 	],
 	"education": [

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 import Content from './components/Content';
-import Footer from './components/Footer';
 import portfolioData from './data/portfolioData.json';
 
 function App() {
