@@ -21,6 +21,9 @@ function Sidebar({ data }) {
       
       {/* Name */}
       <h2 className="text-xl text-gray-900 font-semibold mb-2">{data.header.name}</h2>
+      {/* Title / Tagline */}
+      <p className="text-sm text-gray-600 mb-2 italic">{data.header.title}</p>
+
 
       {/* Location */}
       <div className="flex items-center text-gray-500 mb-4">

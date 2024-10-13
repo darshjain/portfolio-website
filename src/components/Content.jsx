@@ -3,7 +3,7 @@ import iconMapping from "./IconMapping";
 
 function Content({ data }) {
   return (
-    <main className="p-4 lg:p-4">
+    <main className="p-4 lg:p-4 overflow-y-auto h-full">
       {/* Education Section */}
       <section>
         <h3 className="text-gray-800 text-lg mb-4">Education</h3>
