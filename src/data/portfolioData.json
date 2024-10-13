@@ -84,23 +84,21 @@
 			"name": "Medilog",
 			"duration": "Aug 2022 - May 2023",
 			"description": "Designed a blockchain-based, end-to-end pharmaceutical supply chain solution to trace prescription drugs from the manufacturer to the consumer.",
-			"paper": "https://github.com/your-repo/medilog",
-			"github": "/SAMPLE"
+			"patent": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0"
 		},
 		{
 			"name": "Crowdfunding for Engineering Startups",
 			"duration": "Aug 2021 - May 2022",
 			"description": "Developed a decentralized blockchain web application to assist engineering startups with crowdfunding using smart contracts.",
-			"paper": "https://github.com/your-repo/medilog",
-			"github": "/SAMPLE"
+			"paper": "https://www.ijrar.org/viewfull.php?&p_id=IJRAR22B1545",
+			"github": "https://github.com/darshjain/kickstarter-campaign-blockchain"
 		},
 		{
 			"name": "Face Mask Detection & Attendance System",
 			"duration": "Aug 2020 - May 2021",
 			"description": "Created an algorithm using OpenCV to detect face masks and integrate it into an attendance system using live feed.",
-			"paper": "https://github.com/your-repo/medilog",
-			"github": "/SAMPLE",
-			"patent": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0"
+			"paper": "https://www.irjet.net/archives/V8/i6/IRJET-V8I6601.pdf",
+			"github": "https://github.com/darshjain/Face-Mask-Detection-Attendance-System"
 		}
 	],
 	"experience": [
