@@ -3,10 +3,10 @@ import iconMapping from "./IconMapping";
 
 function Content({ data }) {
   return (
-    <main className="p-4 lg:p-4 overflow-y-auto h-full">
+    <main className="p-4 lg:p-8 overflow-y-auto h-full">
 
       {/* Education Section */}
-      <section className="mt-8">
+      <section className="mt-2">
         <h3 className="text-gray-900 text-lg font-semibold mb-4">Education</h3>
         <ul className="space-y-4">
           {data.education.map((edu, index) => (
