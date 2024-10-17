@@ -8,6 +8,39 @@ function App() {
 
   useEffect(() => {
     setData(portfolioData);
+    // Update the document title
+    document.title = "Darsh Jain - Portfolio | MSCS Student at UVA";
+    // Add meta tags for SEO and social sharing
+    const metaDescription = document.createElement('meta');
+    metaDescription.name = 'description';
+    metaDescription.content = "Darsh Jain's portfolio showcasing projects, skills, experience, and education as a Computer Science student at the University of Virginia.";
+    document.head.appendChild(metaDescription);
+
+    const metaImage = document.createElement('meta');
+    metaImage.property = 'og:image';
+    metaImage.content = 'https://avatars.githubusercontent.com/u/65119169?v=4'; // Replace with your image URL
+    document.head.appendChild(metaImage);
+
+    const metaUrl = document.createElement('meta');
+    metaUrl.property = 'og:url';
+    metaUrl.content = window.location.href; // Current URL
+    document.head.appendChild(metaUrl);
+
+    const metaTitle = document.createElement('meta');
+    metaTitle.property = 'og:title';
+    metaTitle.content = "Darsh Jain - Portfolio";
+    document.head.appendChild(metaTitle);
+
+    const metaType = document.createElement('meta');
+    metaType.property = 'og:type';
+    metaType.content = 'website';
+    document.head.appendChild(metaType);
+
+    const metaFavicon = document.createElement('link');
+    metaFavicon.rel = 'icon';
+    metaFavicon.href = '/path/to/favicon.ico'; // Replace with your favicon URL
+    document.head.appendChild(metaFavicon);
+
   }, []);
 
   if (!data) return <div className="text-center text-gray-500 mt-10">Loading...</div>;

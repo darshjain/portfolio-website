@@ -70,14 +70,21 @@
 		"PyMongo",
 		"Truffle",
 		"Mocha",
-		"TailwindCSS"
+		"TailwindCSS",
+		"Cryptocurrency Investigation",
+		"Blockchain Architecture",
+		"Penetration Testing",
+		"Google Cloud",
+		"HardHat"
 	],
 	"certifications": [
 		"AWS Academy Cloud Foundations",
 		"CCNAv7: Introduction to Networks",
 		"CCNAv7: Switching, Routing and Wireless Essentials",
 		"CCNAv7: Enterprise Networking, Security, and Automation",
-		"Python for Everybody"
+		"Python for Everybody",
+		"Google Cloud: 30 Days of Cloud",
+		"Blockchain Basics, Smart Contracts"
 	],
 	"projects": [
 		{
@@ -133,6 +140,16 @@
 			],
 			"duration": "Jun 2022 - Jul 2022",
 			"tech_stack": "AWS Cloudfront, Amplify, IAM, WAF, EC2, CI/CD Pipeline, Lambda, S3, RDS, DynamoDB"
+		},
+		{
+			"role": "Penetration Testing Intern",
+			"company": "Virtually Testing Foundation",
+			"description": [
+				"Conducted penetration testing using OWASP methodologies like XSS and SQLI.",
+				"Performed OSINT analysis and web application security testing using Burp Suite."
+			],
+			"duration": "Oct 2021 - Dec 2021",
+			"tech_stack": "Penetration Testing, Burp Suite, OWASP, XSS, SQLI"
 		}
 	],
 	"education": [
@@ -147,11 +164,23 @@
 			"school": "University of Mumbai",
 			"duration": "Aug 2019 - May 2023",
 			"gpa": "3.70/4.00"
+		},
+		{
+			"degree": "HSC - 12th Grade",
+			"school": "Patkar Varde College of Science and Commerce",
+			"duration": "May 2019",
+			"gpa": "70.77%"
+		},
+		{
+			"degree": "IGCSE - 10th Grade",
+			"school": "Bombay Cambridge International School",
+			"duration": "May 2017",
+			"gpa": "88.00%"
 		}
 	],
 	"publications": [
 		{
-			"title": "Survey paper on Face Mask Detection And Attendance System",
+			"title": "Face Mask Detection And Attendance System",
 			"journal": "International Journal of Scientific and Research Publications (IJSRP)",
 			"impact_factor": 7.662,
 			"link": "https://www.ijsrp.org/research-paper-0321/ijsrp-p11140.pdf"
@@ -175,6 +204,20 @@
 			"file_number": "20 2023 102 823.3",
 			"date": "19 September 2023",
 			"link": "https://register.dpma.de/DPMAregister/pat/register?AKZ=2020231028233&CURSOR=0"
+		}
+	],
+	"positions_of_responsibility": [
+		{
+			"title": "Cybersecurity And Blockchain Lead",
+			"organization": "Google Student Developer Club SLRTCE (GDSC)",
+			"duration": "Sep 2021 - Jun 2022",
+			"description": "Organized workshops and technical events on cybersecurity and blockchain while collaborating with other institutes."
+		},
+		{
+			"title": "Web Development And Cybersecurity Head",
+			"organization": "SLRTCE",
+			"duration": "Sep 2021 - Jun 2022",
+			"description": "Led web development and cybersecurity workshops for the community."
 		}
 	]
 }
