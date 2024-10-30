@@ -5,7 +5,6 @@ export default function IconMapping(iconName) {
     "ReactJS": "https://img.icons8.com/color/48/000000/react-native.png",
     "Node.js": "https://img.icons8.com/color/48/000000/nodejs.png",
     "ExpressJS": "https://img.icons8.com/color/48/000000/express.png",
-
     "Java": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png",
     "C++": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
     "HTML": "https://img.icons8.com/color/48/000000/html-5--v1.png",
@@ -77,7 +76,8 @@ export default function IconMapping(iconName) {
     "Metamask": "https://img.icons8.com/color/48/000000/metamask.png",
     "Web3.js": "https://img.icons8.com/color/48/000000/javascript.png",
     "PyMongo": "https://img.icons8.com/color/48/000000/mongodb.png",
-    "Mocha": "https://www.topsinfosolutions.com/wp-content/uploads/2018/07/mocha-icon.png"
+    "Mocha": "https://www.topsinfosolutions.com/wp-content/uploads/2018/07/mocha-icon.png",
+    "Coffee": "https://img.icons8.com/color/48/000000/coffee-to-go.png",
   };
   return iconMapping[iconName];
 }

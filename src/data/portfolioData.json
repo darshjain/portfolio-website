@@ -37,6 +37,10 @@
 		{
 			"label": "Phone",
 			"url": "tel:+1234567890"
+		},
+		{
+			"label": "Buy Me A Coffee",
+			"url": "https://www.buymeacoffee.com/darshjain"
 		}
 	],
 	"news": [],

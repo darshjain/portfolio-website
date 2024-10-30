@@ -6,8 +6,10 @@ import {
   FiFile, 
   FiPhone, 
   FiGlobe, 
-  FiMapPin 
+  FiMapPin,
 } from 'react-icons/fi'; 
+import { CiCoffeeCup } from "react-icons/ci";
+
 
 function Sidebar({ data }) {
   return (
@@ -55,6 +57,9 @@ function Sidebar({ data }) {
             case 'phone':
               IconComponent = FiPhone;
               break;
+            case 'buy me a coffee':
+              IconComponent = CiCoffeeCup;
+              break
             default:
               IconComponent = FiGlobe;
           }
